@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Web.Mvc;
+
 
 using Moq;
 using Ninject;
@@ -17,6 +17,7 @@ using AppArch.Web.Ui.Services;
 using AppArch.Web.Ui.ViewModels;
 using AppArch.Web.Ui.Controllers;
 using AppArch.Domain.Interfaces;
+using System.Web.Mvc;
 
 namespace AppArch.Tests.Core.Controllers
 {
