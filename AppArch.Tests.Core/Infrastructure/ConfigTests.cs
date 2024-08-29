@@ -36,7 +36,7 @@ namespace AppArch.Tests.Core.Infrastructure
 
             // Act
 
-            var connStrVal = @"Data Source=.\sqlexpress;Initial Catalog=Northwind;Integrated Security=True";
+            var connStrVal = @"Data Source=.\SQLEXPRESS;Initial Catalog=Northwind;Integrated Security=True";
             var connStr = config.NorthwindConnection;
 
             // Assert
